@@ -35,7 +35,7 @@ function App() {
       <div className="home-box" >
         <Home searchTerm={searchTerm} />
       </div>
-      <IoIosArrowUp className="moveup" onClick={() => { goToTop() }} style={{ display: `${showTopBtn ? "block" : "none"}` }} />
+      <IoIosArrowUp className="moveup" onClick={() => { goToTop() }} style={{ display: `${showTopBtn ? "block" : "none"}`, color:"#fff" }} />
     </div>
   )
 }
