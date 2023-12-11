@@ -64,7 +64,11 @@ function Home({ searchTerm }) {
                     </div>
                 })
             }
-
+            {
+                AllData.length == 0 && <h1 className="discussion">
+                    Loading....
+                </h1>
+            }
         </div >
     )
 }
